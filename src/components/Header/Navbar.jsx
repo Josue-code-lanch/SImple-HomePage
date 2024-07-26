@@ -7,17 +7,19 @@ export default function Navbar() {
       <nav className="navbar navbar-expand-lg navbar-light bg-light flex justify-between items-center w-full">
         <Logo />
         <div>
-          <ul>
+          <ul className="w-full flex justify-between items-center gap-10 color-[#909193] font-semibold">
             <li className="nav-item">
-              <a href="#">About us</a>
+              <a href="#" className="">
+                About us
+              </a>
             </li>
-            <li className="nav-item">
+            <li className="color-[#]">
               <a href="#">Product</a>
             </li>
-            <li className="nav-item">
+            <li className="color-[#]">
               <a href="#">Resource</a>
             </li>
-            <li className="nav-item">
+            <li className="color-[#]">
               <a href="#">Contact</a>
             </li>
           </ul>
