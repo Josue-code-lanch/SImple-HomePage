@@ -3,12 +3,12 @@ import Done from "../Icons/Done.jsx";
 export default function Main() {
   return (
     <main>
-      <section className="flex max-w-full justify-between items-center text-[1.125rem] text-[#909193] font-medium h-screen">
-        <div className="flex flex-col gap-8">
-          <p className="text-[#111729] uppercase">
+      <section className="flex flex-col-reverse gap-14 max-w-full justify-between items-center md:p-[70px] p-3 text-[1.05rem] lg:text-[1.125rem] text-[#909193] font-medium lg:h-screen lg:flex-row">
+        <div className="flex flex-col gap-8 mt-[50px] lg:mt-0">
+          <p className="text-[#111729] uppercase dark:text-white">
             😎 Simple way to communicate
           </p>
-          <h1 className="text-[3.75rem] text-[#223344] font-bold">
+          <h1 className="text-[2.9rem] lg:text-[3.75rem] text-[#223344] font-bold dark:text-white">
             Actions for Accessibility in Design
           </h1>
           <p>
@@ -35,7 +35,11 @@ export default function Main() {
           </aside>
         </div>
         <figure className="w-[90%]">
-          <img src="./public/hero-image-simple-homepage.png" alt="hero" />
+          <img
+            src="/hero-image-simple-homepage.png"
+            alt="hero"
+            className="mt-[100px] md:mt-0"
+          />
         </figure>
       </section>
     </main>
