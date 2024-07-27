@@ -1,6 +1,6 @@
 export default function SwitchButton() {
   return (
-    <label className="inline-flex items-center relative ">
+    <label className="inline-flex items-center relative cursor-pointer">
       <input className="peer hidden" id="toggle" type="checkbox" />
       <div className="relative w-[90px] h-[30px] bg-white peer-checked:bg-zinc-500 rounded-full after:absolute after:content-[''] after:w-[30px] after:h-[30px] after:bg-gradient-to-r from-orange-500 to-yellow-400 peer-checked:after:from-zinc-900 peer-checked:after:to-zinc-900 after:rounded-full after:top-[0px] after:left-[10px] active:after:w-[50px] peer-checked:after:left-[80px] peer-checked:after:translate-x-[-100%] shadow-sm duration-300 after:duration-300 after:shadow-md"></div>
       <svg
